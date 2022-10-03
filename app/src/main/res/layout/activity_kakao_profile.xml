@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/Kakao_Profile_BackgroupImg">
+
+
+
+<!--카카오톡 개인 프로필 옵션 버튼 설정완료~-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margintop="0dp"
+        android:layout_marginBottom="690dp"
+        >
+        <ImageView
+            android:id="@+id/Option1"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            app:srcCompat="@drawable/Kakao_Profile_Option1"
+            >
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/Option2"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/Option3"
+            app:srcCompat="@drawable/Kakao_Profile_Option2"
+            >
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/Option3"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/Option4"
+            app:srcCompat="@drawable/Kakao_Profile_Option3"
+            >
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/Option4"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            app:srcCompat="@drawable/Kakao_Profile_Option4"
+            >
+        </ImageView>
+    </RelativeLayout>
+
+
+
+
+
+
+<!--카카오톡 개인 프로필 사진, 이름, 한줄소개 뷰 완료~ -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="110dp">
+
+        <ImageView
+            android:id="@+id/ProfileImg"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/Kakao_ProfileImg"
+            android:layout_above="@+id/ProfileName"
+            android:layout_centerHorizontal="true"
+            >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/ProfileName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="김동욱"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_above="@+id/ProfileIntroduction"
+            android:layout_centerHorizontal="true"
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/ProfileIntroduction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="뭐든지 처음엔 어설프게 시작하기"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true">
+        </TextView>
+    </RelativeLayout>
+
+
+
+
+
+<!--카카오톡 개인 프로필 기능 뷰 완료~-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="630dp"
+        android:layout_marginBottom="0dp">
+
+
+        <ImageView
+            android:id="@+id/Profile_feture1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/Kakao_Profile_feature1"
+            android:layout_marginStart="50dp"
+            >
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/Profile_feture2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/Kakao_Profile_feature2"
+            android:layout_toRightOf="@+id/Profile_feture1"
+            android:layout_marginStart="37dp"
+            >
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/Profile_feture3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/Kakao_Profile_feature3"
+            android:layout_toRightOf="@+id/Profile_feture2"
+            android:layout_marginStart="37dp"
+            >
+        </ImageView>
+    </RelativeLayout>
+
+<!--카카오톡 개인 프로필 보기는
+    3개의 layout으로 나누었음
+    모든 layout은 RelativeLayout으로 나누었다.
+    영역별로 뷰 공간을 제한하고,
+    뷰 객체를 클론코딩의 목적에 따라
+    대략 비슷하게 앱 뷰를 구성했다. -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

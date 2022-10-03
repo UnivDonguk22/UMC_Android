@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_pay"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="650dp"
+        android:layout_weight="2"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <Button
+            android:id="@+id/deliver_backspace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/transparent"
+            android:drawableStart="@drawable/ic_baseline_backspace_24"
+            android:paddingStart="10dp"
+            android:paddingTop="0dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="10dp"
+            android:text=" 배민1"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/deliver_Home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/transparent"
+            android:paddingStart="10dp"
+            android:paddingTop="0dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="10dp"
+            android:text="홈버튼"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/deliver_backspace"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.888"
+            app:layout_constraintStart_toEndOf="@+id/deliver_backspace"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/deliver_backspace"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/deliver_shop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/transparent"
+            android:paddingStart="100dp"
+            android:paddingTop="0dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="10dp"
+            android:text="Shop"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/deliver_backspace"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/deliver_backspace"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/deliver_backspace"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/tv_password_label"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="4dp"
+            android:gravity="center"
+            android:text="우리집 경기 안산시 상록구 한양대학로 55 행복관 671호"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <FrameLayout
+        android:id="@+id/Deliver_AD"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="450dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/Deliver_Adsence"
+            >
+        </ImageView>
+
+    </FrameLayout>
+
+
+<!--배민 주문 메뉴창 제작-->
+    <GridLayout
+        android:id="@+id/Deliver_Menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="280dp"
+        android:layout_marginBottom="290dp">
+
+<!--배민 주문 첫번 째 줄 완성 ㅎ-->
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_column="0"
+            android:layout_row="0"
+            app:srcCompat="@drawable/Deliver_menu1"
+            >
+        </ImageView>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_column="1"
+            android:layout_row="0"
+            app:srcCompat="@drawable/Deliver_menu2"
+            >
+        </ImageView>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_column="2"
+            android:layout_row="0"
+            app:srcCompat="@drawable/Deliver_menu3"
+            >
+        </ImageView>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_column="3"
+            android:layout_row="0"
+            app:srcCompat="@drawable/Deliver_menu4"
+            >
+        </ImageView>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_column="4"
+            android:layout_row="0"
+            app:srcCompat="@drawable/Deliver_menu5"
+            >
+        </ImageView>
+
+<!--배민 주문 두번째 줄 ㅎ-->
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_column="0"
+            android:layout_row="1"
+            app:srcCompat="@drawable/Deliver_menu6"
+            >
+        </ImageView>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_column="1"
+            android:layout_row="1"
+            app:srcCompat="@drawable/Deliver_menu7"
+            >
+        </ImageView>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_column="2"
+            android:layout_row="1"
+            app:srcCompat="@drawable/Deliver_menu8"
+            >
+        </ImageView>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_column="3"
+            android:layout_row="1"
+            app:srcCompat="@drawable/Deliver_menu9"
+            >
+        </ImageView>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_column="4"
+            android:layout_row="1"
+            app:srcCompat="@drawable/Deliver_menu10"
+            >
+        </ImageView>
+
+
+<!--배민 주문 세번째 줄 ㅎ-->
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_column="0"
+            android:layout_row="2"
+            app:srcCompat="@drawable/Deliver_menu11"
+            >
+        </ImageView>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_column="1"
+            android:layout_row="2"
+            app:srcCompat="@drawable/Deliver_menu12"
+            >
+        </ImageView>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_column="2"
+            android:layout_row="2"
+            app:srcCompat="@drawable/Deliver_menu13"
+            >
+        </ImageView>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_column="3"
+            android:layout_row="2"
+            app:srcCompat="@drawable/Deliver_menu14"
+            >
+        </ImageView>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_column="4"
+            android:layout_row="2"
+            app:srcCompat="@drawable/Deliver_menu15"
+            >
+        </ImageView>
+    </GridLayout>
+
+<!--기본순, 쿠폰, 1인분, 배달팀, 별점 삽입 (이미지 버튼)-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="450dp"
+        android:layout_marginBottom="230dp"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/Deliver_Button1"
+            >
+        </ImageView>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/Deliver_Button2"
+            >
+        </ImageView>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/Deliver_Button3"
+            >
+        </ImageView>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/Deliver_Button4"
+            >
+        </ImageView>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/Deliver_Button5"
+            >
+        </ImageView>
+
+    </LinearLayout>
+
+
+<!--배달의 민족 메뉴 추천 이미지-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="500dp"
+        android:layout_marginBottom="70dp"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/Deliver_exampleMenu"
+            >
+        </ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="660dp"
+        android:layout_marginBottom="0dp"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/Deliver_Option1"
+            >
+        </ImageView>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/Deliver_Option2"
+            >
+        </ImageView>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/Deliver_Option3"
+            >
+        </ImageView>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/Deliver_Option4"
+            >
+        </ImageView>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/Deliver_Option5"
+            >
+        </ImageView>
+
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

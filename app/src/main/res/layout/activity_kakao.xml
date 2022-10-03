@@ -72,7 +72,7 @@
             android:id="@+id/iv_kakaopay"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_marginStart="4dp"
+            android:layout_marginStart="3dp"
             app:layout_constraintBottom_toBottomOf="@+id/tv_totalmoney"
             app:layout_constraintEnd_toStartOf="@+id/tv_totalmoney"
             app:layout_constraintHeight_default="percent"
@@ -171,7 +171,7 @@
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="4" >
+        android:layout_weight="4">
 
     </GridLayout>
 
@@ -180,9 +180,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
+        android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        tools:visibility="visible">
 
         <ImageView
             android:id="@+id/imageView"

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black">
+
+
+<!--인스타그램 상위 토글 창 설정 완료~-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="667dp">
+
+        <ImageView
+            android:id="@+id/Instargram_Logo"
+            android:layout_width="140dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/Instargram_Logo">
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/Instargram_feture3"
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            app:srcCompat="@drawable/Instargram_feture3">
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/Instargram_feture2"
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            android:layout_toLeftOf="@+id/Instargram_feture3"
+            app:srcCompat="@drawable/Instargram_feture2">
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/Instargram_feture1"
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            android:layout_toLeftOf="@+id/Instargram_feture2"
+            app:srcCompat="@drawable/Instargram_feture1">
+        </ImageView>
+    </RelativeLayout>
+
+
+<!--인스타그램 피드의 기능 뷰 완료~-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="610dp">
+
+        <ImageView
+            android:id="@+id/Instargram_feed_Option1"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/Instargram_feed_Option1">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/Instargram_feed_Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hanyang_erica\n한양대학교 Erica 캠퍼스"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/Instargram_feed_Option1">
+        </TextView>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/Instargram_feed_Option2"
+            android:layout_alignParentRight="true">
+        </ImageView>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="110dp"
+        android:layout_marginBottom="290dp">
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            app:srcCompat="@drawable/Instargram_feedImg">
+        </ImageView>
+
+    </FrameLayout>
+
+
+
+<!--인스타그램 피드 뷰 완료 ~-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="440dp">
+
+        <ImageView
+            android:id="@+id/feture1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/Instargram_feed_feture1">
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/feture2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/Instargram_feed_feture2"
+            android:layout_toRightOf="@+id/feture1">
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/feture3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/Instargram_feed_feture3"
+            android:layout_toRightOf="@+id/feture2">
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/feture4"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/Instargram_feed_feture4"
+            android:layout_toRightOf="@+id/feture3"
+            android:layout_marginStart="15dp">
+        </ImageView>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/Instargram_feed_feture5"
+            android:layout_alignParentRight="true">
+        </ImageView>
+
+
+
+
+
+
+
+
+
+
+
+
+        <ImageView
+            android:id="@+id/feture6"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/Instargram_feed_feture6"
+            android:layout_below="@+id/feture1">
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dong_uk.__.22님 외 155명이 좋아합니다"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/feture1"
+            android:layout_toRightOf="@+id/feture6"
+            android:layout_marginTop="11dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hanyang_erica 2022.09.30\n한양대학교 ERICA 가을 축제 바람의 나라 BREEZE... 더보기"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/feture6"
+            android:layout_marginStart="10dp">
+        </TextView>
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+<!--
+이번의 인스타그램 뷰는 새로운 시도를 해보았다.
+여러 개의 layout을 하나의 Layout으로 구성해보는 시도를 해보았고,
+원하는 대로 앱 뷰를 구성할 수 있었다.
+피드 조회 뷰를 하나의 layout으로만 구성했다 ~
+-->
