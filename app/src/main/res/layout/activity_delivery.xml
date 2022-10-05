@@ -111,7 +111,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/Deliver_Adsence"
+            app:srcCompat="@drawable/deliver_adsence"
             >
         </ImageView>
 
@@ -132,7 +132,7 @@
             android:layout_height="50dp"
             android:layout_column="0"
             android:layout_row="0"
-            app:srcCompat="@drawable/Deliver_menu1"
+            app:srcCompat="@drawable/deliver_menu1"
             >
         </ImageView>
 
@@ -141,7 +141,7 @@
             android:layout_height="50dp"
             android:layout_column="1"
             android:layout_row="0"
-            app:srcCompat="@drawable/Deliver_menu2"
+            app:srcCompat="@drawable/deliver_menu2"
             >
         </ImageView>
 
@@ -150,7 +150,7 @@
             android:layout_height="50dp"
             android:layout_column="2"
             android:layout_row="0"
-            app:srcCompat="@drawable/Deliver_menu3"
+            app:srcCompat="@drawable/deliver_menu3"
             >
         </ImageView>
 
@@ -159,7 +159,7 @@
             android:layout_height="50dp"
             android:layout_column="3"
             android:layout_row="0"
-            app:srcCompat="@drawable/Deliver_menu4"
+            app:srcCompat="@drawable/deliver_menu4"
             >
         </ImageView>
 
@@ -168,7 +168,7 @@
             android:layout_height="50dp"
             android:layout_column="4"
             android:layout_row="0"
-            app:srcCompat="@drawable/Deliver_menu5"
+            app:srcCompat="@drawable/deliver_menu5"
             >
         </ImageView>
 
@@ -178,7 +178,7 @@
             android:layout_height="50dp"
             android:layout_column="0"
             android:layout_row="1"
-            app:srcCompat="@drawable/Deliver_menu6"
+            app:srcCompat="@drawable/deliver_menu6"
             >
         </ImageView>
 
@@ -187,7 +187,7 @@
             android:layout_height="50dp"
             android:layout_column="1"
             android:layout_row="1"
-            app:srcCompat="@drawable/Deliver_menu7"
+            app:srcCompat="@drawable/deliver_menu7"
             >
         </ImageView>
 
@@ -196,7 +196,7 @@
             android:layout_height="50dp"
             android:layout_column="2"
             android:layout_row="1"
-            app:srcCompat="@drawable/Deliver_menu8"
+            app:srcCompat="@drawable/deliver_menu8"
             >
         </ImageView>
 
@@ -205,7 +205,7 @@
             android:layout_height="50dp"
             android:layout_column="3"
             android:layout_row="1"
-            app:srcCompat="@drawable/Deliver_menu9"
+            app:srcCompat="@drawable/deliver_menu9"
             >
         </ImageView>
 
@@ -214,7 +214,7 @@
             android:layout_height="50dp"
             android:layout_column="4"
             android:layout_row="1"
-            app:srcCompat="@drawable/Deliver_menu10"
+            app:srcCompat="@drawable/deliver_menu10"
             >
         </ImageView>
 
@@ -225,7 +225,7 @@
             android:layout_height="50dp"
             android:layout_column="0"
             android:layout_row="2"
-            app:srcCompat="@drawable/Deliver_menu11"
+            app:srcCompat="@drawable/deliver_menu11"
             >
         </ImageView>
 
@@ -234,7 +234,7 @@
             android:layout_height="50dp"
             android:layout_column="1"
             android:layout_row="2"
-            app:srcCompat="@drawable/Deliver_menu12"
+            app:srcCompat="@drawable/deliver_menu12"
             >
         </ImageView>
 
@@ -243,7 +243,7 @@
             android:layout_height="50dp"
             android:layout_column="2"
             android:layout_row="2"
-            app:srcCompat="@drawable/Deliver_menu13"
+            app:srcCompat="@drawable/deliver_menu13"
             >
         </ImageView>
 
@@ -252,7 +252,7 @@
             android:layout_height="50dp"
             android:layout_column="3"
             android:layout_row="2"
-            app:srcCompat="@drawable/Deliver_menu14"
+            app:srcCompat="@drawable/deliver_menu14"
             >
         </ImageView>
 
@@ -261,7 +261,7 @@
             android:layout_height="50dp"
             android:layout_column="4"
             android:layout_row="2"
-            app:srcCompat="@drawable/Deliver_menu15"
+            app:srcCompat="@drawable/deliver_menu15"
             >
         </ImageView>
     </GridLayout>
@@ -279,35 +279,35 @@
         <ImageView
             android:layout_width="80dp"
             android:layout_height="50dp"
-            app:srcCompat="@drawable/Deliver_Button1"
+            app:srcCompat="@drawable/deliver_button1"
             >
         </ImageView>
 
         <ImageView
             android:layout_width="80dp"
             android:layout_height="50dp"
-            app:srcCompat="@drawable/Deliver_Button2"
+            app:srcCompat="@drawable/deliver_button2"
             >
         </ImageView>
 
         <ImageView
             android:layout_width="80dp"
             android:layout_height="50dp"
-            app:srcCompat="@drawable/Deliver_Button3"
+            app:srcCompat="@drawable/deliver_button3"
             >
         </ImageView>
 
         <ImageView
             android:layout_width="80dp"
             android:layout_height="50dp"
-            app:srcCompat="@drawable/Deliver_Button4"
+            app:srcCompat="@drawable/deliver_button4"
             >
         </ImageView>
 
         <ImageView
             android:layout_width="80dp"
             android:layout_height="50dp"
-            app:srcCompat="@drawable/Deliver_Button5"
+            app:srcCompat="@drawable/deliver_button5"
             >
         </ImageView>
 
@@ -325,7 +325,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:srcCompat="@drawable/Deliver_exampleMenu"
+            app:srcCompat="@drawable/deliver_examplemenu"
             >
         </ImageView>
 
@@ -342,35 +342,35 @@
         <ImageView
             android:layout_width="80dp"
             android:layout_height="50dp"
-            app:srcCompat="@drawable/Deliver_Option1"
+            app:srcCompat="@drawable/deliver_option1"
             >
         </ImageView>
 
         <ImageView
             android:layout_width="80dp"
             android:layout_height="50dp"
-            app:srcCompat="@drawable/Deliver_Option2"
+            app:srcCompat="@drawable/deliver_option2"
             >
         </ImageView>
 
         <ImageView
             android:layout_width="80dp"
             android:layout_height="50dp"
-            app:srcCompat="@drawable/Deliver_Option3"
+            app:srcCompat="@drawable/deliver_option3"
             >
         </ImageView>
 
         <ImageView
             android:layout_width="80dp"
             android:layout_height="50dp"
-            app:srcCompat="@drawable/Deliver_Option4"
+            app:srcCompat="@drawable/deliver_option4"
             >
         </ImageView>
 
         <ImageView
             android:layout_width="80dp"
             android:layout_height="50dp"
-            app:srcCompat="@drawable/Deliver_Option5"
+            app:srcCompat="@drawable/deliver_option5"
             >
         </ImageView>
 

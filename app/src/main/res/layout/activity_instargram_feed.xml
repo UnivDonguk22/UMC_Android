@@ -16,7 +16,7 @@
             android:id="@+id/Instargram_Logo"
             android:layout_width="140dp"
             android:layout_height="100dp"
-            app:srcCompat="@drawable/Instargram_Logo">
+            app:srcCompat="@drawable/instargram_logo">
         </ImageView>
 
         <ImageView
@@ -24,7 +24,7 @@
             android:layout_width="50dp"
             android:layout_height="100dp"
             android:layout_alignParentRight="true"
-            app:srcCompat="@drawable/Instargram_feture3">
+            app:srcCompat="@drawable/instargram_feture3">
         </ImageView>
 
         <ImageView
@@ -32,7 +32,7 @@
             android:layout_width="50dp"
             android:layout_height="100dp"
             android:layout_toLeftOf="@+id/Instargram_feture3"
-            app:srcCompat="@drawable/Instargram_feture2">
+            app:srcCompat="@drawable/instargram_feture2">
         </ImageView>
 
         <ImageView
@@ -40,7 +40,7 @@
             android:layout_width="50dp"
             android:layout_height="100dp"
             android:layout_toLeftOf="@+id/Instargram_feture2"
-            app:srcCompat="@drawable/Instargram_feture1">
+            app:srcCompat="@drawable/instargram_feture1">
         </ImageView>
     </RelativeLayout>
 
@@ -56,7 +56,7 @@
             android:id="@+id/Instargram_feed_Option1"
             android:layout_width="70dp"
             android:layout_height="50dp"
-            app:srcCompat="@drawable/Instargram_feed_Option1">
+            app:srcCompat="@drawable/instargram_feed_option1">
         </ImageView>
 
         <TextView
@@ -73,7 +73,7 @@
         <ImageView
             android:layout_width="40dp"
             android:layout_height="50dp"
-            app:srcCompat="@drawable/Instargram_feed_Option2"
+            app:srcCompat="@drawable/instargram_feed_option2"
             android:layout_alignParentRight="true">
         </ImageView>
     </RelativeLayout>
@@ -87,7 +87,7 @@
         <ImageView
             android:layout_width="400dp"
             android:layout_height="400dp"
-            app:srcCompat="@drawable/Instargram_feedImg">
+            app:srcCompat="@drawable/instargram_feedimg">
         </ImageView>
 
     </FrameLayout>
@@ -104,14 +104,14 @@
             android:id="@+id/feture1"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            app:srcCompat="@drawable/Instargram_feed_feture1">
+            app:srcCompat="@drawable/instargram_feed_feture1">
         </ImageView>
 
         <ImageView
             android:id="@+id/feture2"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            app:srcCompat="@drawable/Instargram_feed_feture2"
+            app:srcCompat="@drawable/instargram_feed_feture2"
             android:layout_toRightOf="@+id/feture1">
         </ImageView>
 
@@ -119,7 +119,7 @@
             android:id="@+id/feture3"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            app:srcCompat="@drawable/Instargram_feed_feture3"
+            app:srcCompat="@drawable/instargram_feed_feture3"
             android:layout_toRightOf="@+id/feture2">
         </ImageView>
 
@@ -127,7 +127,7 @@
             android:id="@+id/feture4"
             android:layout_width="100dp"
             android:layout_height="50dp"
-            app:srcCompat="@drawable/Instargram_feed_feture4"
+            app:srcCompat="@drawable/instargram_feed_feture4"
             android:layout_toRightOf="@+id/feture3"
             android:layout_marginStart="15dp">
         </ImageView>
@@ -135,7 +135,7 @@
         <ImageView
             android:layout_width="60dp"
             android:layout_height="50dp"
-            app:srcCompat="@drawable/Instargram_feed_feture5"
+            app:srcCompat="@drawable/instargram_feed_feture5"
             android:layout_alignParentRight="true">
         </ImageView>
 
@@ -154,7 +154,7 @@
             android:id="@+id/feture6"
             android:layout_width="80dp"
             android:layout_height="50dp"
-            app:srcCompat="@drawable/Instargram_feed_feture6"
+            app:srcCompat="@drawable/instargram_feed_feture6"
             android:layout_below="@+id/feture1">
         </ImageView>
 
@@ -167,7 +167,7 @@
             android:textStyle="bold"
             android:layout_below="@+id/feture1"
             android:layout_toRightOf="@+id/feture6"
-            android:layout_marginTop="11dp">
+            android:layout_marginTop="15dp">
         </TextView>
 
         <TextView

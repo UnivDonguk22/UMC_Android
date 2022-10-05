@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@drawable/Kakao_Profile_BackgroupImg">
+    android:background="@drawable/kakao_profile_backgroupimg">
 
 
 
@@ -11,7 +11,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margintop="0dp"
+        android:layout_marginTop="0dp"
         android:layout_marginBottom="690dp"
         >
         <ImageView
@@ -19,7 +19,7 @@
             android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
-            app:srcCompat="@drawable/Kakao_Profile_Option1"
+            app:srcCompat="@drawable/kakao_profile_option1"
             >
         </ImageView>
 
@@ -28,7 +28,7 @@
             android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_toLeftOf="@+id/Option3"
-            app:srcCompat="@drawable/Kakao_Profile_Option2"
+            app:srcCompat="@drawable/kakao_profile_option2"
             >
         </ImageView>
 
@@ -37,7 +37,7 @@
             android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_toLeftOf="@+id/Option4"
-            app:srcCompat="@drawable/Kakao_Profile_Option3"
+            app:srcCompat="@drawable/kakao_profile_option3"
             >
         </ImageView>
 
@@ -46,7 +46,7 @@
             android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
-            app:srcCompat="@drawable/Kakao_Profile_Option4"
+            app:srcCompat="@drawable/kakao_profile_option4"
             >
         </ImageView>
     </RelativeLayout>
@@ -67,7 +67,7 @@
             android:id="@+id/ProfileImg"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            app:srcCompat="@drawable/Kakao_ProfileImg"
+            app:srcCompat="@drawable/kakao_profileimg"
             android:layout_above="@+id/ProfileName"
             android:layout_centerHorizontal="true"
             >
@@ -115,7 +115,7 @@
             android:id="@+id/Profile_feture1"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            app:srcCompat="@drawable/Kakao_Profile_feature1"
+            app:srcCompat="@drawable/kakao_profile_feature1"
             android:layout_marginStart="50dp"
             >
         </ImageView>
@@ -124,7 +124,7 @@
             android:id="@+id/Profile_feture2"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            app:srcCompat="@drawable/Kakao_Profile_feature2"
+            app:srcCompat="@drawable/kakao_profile_feature2"
             android:layout_toRightOf="@+id/Profile_feture1"
             android:layout_marginStart="37dp"
             >
@@ -134,7 +134,7 @@
             android:id="@+id/Profile_feture3"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            app:srcCompat="@drawable/Kakao_Profile_feature3"
+            app:srcCompat="@drawable/kakao_profile_feature3"
             android:layout_toRightOf="@+id/Profile_feture2"
             android:layout_marginStart="37dp"
             >
