@@ -31,9 +31,14 @@ class MainActivity : AppCompatActivity() {
         // ViewBinding을 통해 layout XML에 접근이 가능해짐 (layout -> 객체로 넘어올 때는 카멜 케이스로 네이밍이 자동 설정됨.)
         viewBinding.btnNext.setOnClickListener {
 
+            /*
+               Layout의 EditText 객체를 받아 다음 Activity로 EditText의 Text 값 넘겨주기
+             */
+            var inputEditText = viewBinding.editTextTextPersonName.text.toString()
+
             // Activity의 이동을 위해 Intent 객체를 이용.
             val intent = Intent(this, SecondActivity::class.java)
-            intent.putExtra("text", "first_receive_data")
+            intent.putExtra("inputEditText", inputEditText)
             startActivity(intent)
             /*
                 Intent는 메시지 객체로써, 한 Activity에서 다른 Activity로 넘어갈 때
