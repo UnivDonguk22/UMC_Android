@@ -30,6 +30,14 @@ android {
         jvmTarget = '1.8'
     }
 
+    /*
+        ViewBinding 설정 완료 - Activity와 Layout에서
+        ViewBinding을 설정하기 위해 Build.Gradle 파일에서 아래와 같이 설정을 해준다.
+    */
+    viewBinding {
+        enabled true
+    }
+
     viewBinding {
         enabled true
     }
