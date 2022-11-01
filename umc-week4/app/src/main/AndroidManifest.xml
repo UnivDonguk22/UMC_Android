@@ -24,6 +24,16 @@
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
+
+
+        </activity>
+
+        <activity
+            android:name=".SecondActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
         </activity>
     </application>
 

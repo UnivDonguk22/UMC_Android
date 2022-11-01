@@ -7,6 +7,11 @@ android {
     namespace 'com.example.umc_week4'
     compileSdk 32
 
+    // Auto - viewBinding 클래스 생성해주는 설정
+    buildFeatures{
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId "com.example.umc_week4"
         minSdk 21
