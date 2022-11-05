@@ -87,7 +87,7 @@ class MainActivity : AppCompatActivity() {
                     DialogInterface.OnClickListener { dialog, id ->
                         edit_data = ""
                     })
-            // 다이얼로그를 띄워주기
+            // 다이얼로그를 띄워주기22
             builder.show()
 
     }
