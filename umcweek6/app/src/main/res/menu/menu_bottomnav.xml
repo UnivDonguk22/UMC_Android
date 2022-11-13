@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_home"
+        android:title="홈"
+        android:icon="@drawable/home_icon">
+    </item>
+
+    <item
+        android:id="@+id/menu_setting"
+        android:title="메뉴"
+        android:icon="@drawable/menu"/>
+
+    <item
+        android:id="@+id/store_picture"
+        android:title="사진첩"
+        android:icon="@drawable/store_picture"/>
+
+</menu>
